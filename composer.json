@@ -1,0 +1,21 @@
+{
+  "name": "admin/webcrawlerhttp-php",
+  "autoload": {
+    "psr-4": {
+      "Admin\\WebcrawlerhttpPhp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MahimZaman",
+      "email": "mahimzaman1998@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "php -S localhost:8000",
+    "test": "./vendor/bin/phpunit"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.5"
+  }
+}
